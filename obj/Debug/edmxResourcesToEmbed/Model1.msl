@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HastaKayitProgramiModelStoreContainer" CdmEntityContainer="HastaKayitProgramiEntities1">
+    <EntitySetMapping Name="Danisanlar">
+      <EntityTypeMapping TypeName="HastaKayitProgramiModel.Danisanlar">
+        <MappingFragment StoreEntitySet="Danisanlar">
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanicilar">
+      <EntityTypeMapping TypeName="HastaKayitProgramiModel.Kullanicilar">
+        <MappingFragment StoreEntitySet="Kullanicilar">
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="KullaniciTipi" ColumnName="KullaniciTipi" />
+          <ScalarProperty Name="TelefonNo" ColumnName="TelefonNo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Parola" ColumnName="Parola" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AktifRandevular">
+      <EntityTypeMapping TypeName="HastaKayitProgramiModel.AktifRandevular">
+        <MappingFragment StoreEntitySet="AktifRandevular">
+          <ScalarProperty Name="RandevuSaati" ColumnName="RandevuSaati" />
+          <ScalarProperty Name="RandevuTarihi" ColumnName="RandevuTarihi" />
+          <ScalarProperty Name="DanismanAdiSoyadi" ColumnName="DanismanAdiSoyadi" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DanisanMuayeneTablosu">
+      <EntityTypeMapping TypeName="HastaKayitProgramiModel.DanisanMuayeneTablosu">
+        <MappingFragment StoreEntitySet="DanisanMuayeneTablosu">
+          <ScalarProperty Name="MuayeneSonucları" ColumnName="MuayeneSonucları" />
+          <ScalarProperty Name="MuayeneSaati" ColumnName="MuayeneSaati" />
+          <ScalarProperty Name="MuayeneTarihi" ColumnName="MuayeneTarihi" />
+          <ScalarProperty Name="DanismanSoyadi" ColumnName="DanismanSoyadi" />
+          <ScalarProperty Name="DanismanAdi" ColumnName="DanismanAdi" />
+          <ScalarProperty Name="Yas" ColumnName="Yas" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="TcKimlikNo" ColumnName="TcKimlikNo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

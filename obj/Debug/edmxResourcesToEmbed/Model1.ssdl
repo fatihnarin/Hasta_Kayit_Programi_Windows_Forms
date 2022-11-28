@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HastaKayitProgramiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AktifRandevular">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TcKimlikNo" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="DanismanAdiSoyadi" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="RandevuTarihi" Type="date" Nullable="false" />
+    <Property Name="RandevuSaati" Type="nvarchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Danisanlar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TcKimlikNo" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="DogumTarihi" Type="date" Nullable="false" />
+    <Property Name="Cinsiyet" Type="nchar" MaxLength="5" />
+    <Property Name="Telefon" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DanisanMuayeneTablosu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TcKimlikNo" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Cinsiyet" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="Yas" Type="tinyint" Nullable="false" />
+    <Property Name="DanismanAdi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="DanismanSoyadi" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="MuayeneTarihi" Type="date" Nullable="false" />
+    <Property Name="MuayeneSaati" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="MuayeneSonucları" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TcKimlikNo" Type="char" MaxLength="11" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="KullaniciTipi" Type="nvarchar" MaxLength="8" Nullable="false" />
+    <Property Name="Durum" Type="nchar" MaxLength="5" />
+    <Property Name="TelefonNo" Type="nchar" MaxLength="11" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Parola" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="HastaKayitProgramiModelStoreContainer">
+    <EntitySet Name="AktifRandevular" EntityType="Self.AktifRandevular" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Danisanlar" EntityType="Self.Danisanlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DanisanMuayeneTablosu" EntityType="Self.DanisanMuayeneTablosu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

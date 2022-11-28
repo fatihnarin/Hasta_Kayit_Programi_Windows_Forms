@@ -1,0 +1,11 @@
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\bin\Debug\HastaKayıtProgramı.exe.config
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\bin\Debug\HastaKayıtProgramı.exe
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\bin\Debug\HastaKayıtProgramı.pdb
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.csproj.AssemblyReference.cache
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.Form1.resources
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.Properties.Resources.resources
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.SifremiUnuttum.resources
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.csproj.GenerateResource.cache
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.csproj.CoreCompileInputs.cache
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.exe
+D:\BTKAKADEMİ\C#\hastakayıt\HastaKayıtProgramı\obj\Debug\HastaKayıtProgramı.pdb
